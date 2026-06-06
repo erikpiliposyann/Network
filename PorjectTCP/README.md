@@ -176,12 +176,12 @@ fopen("products.db", "ab+");
 
 ## 🎯 9. Key Features
 
-- 🧵 Multi-threaded server (pthread)
-- 🔐 Mutex-protected database access
-- 💾 Binary file storage (fixed-size records)
-- ⚡ Fast search using sequential block reading
-- 📡 Raw TCP communication
-- 📂 Stateless request handling
+-  Multi-threaded server (pthread)
+-  Mutex-protected database access
+-  Binary file storage (fixed-size records)
+-  Fast search using sequential block reading
+-  Raw TCP communication
+-  Stateless request handling
 
 ---
 
