@@ -6,7 +6,7 @@ A multi-client chat server built in **C** using **TCP sockets**, **pthreads**, a
 
 *  Multi-client support using **POSIX threads (`pthread`)**
 *  Real-time message broadcasting
-*  **Typing indicator** – when a user starts typing, other clients see `TYPING`
+*  **Typing indicator** – when a user starts typing, other clients see `typing...`
 *  Efficient client-side I/O handling with **`epoll`**
 *  Simple TCP-based communication protocol
 
@@ -105,7 +105,7 @@ TYPING
 4. The server broadcasts:
 
 ```text
-Գրում է...
+typing...
 ```
 
 to every other connected client.
