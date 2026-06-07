@@ -35,7 +35,7 @@ void *handle_client(void *arg) {
     while ((bytesRead = recv(clientSocket, buffer, sizeof(buffer) - 1, 0)) > 0) {
         buffer[bytesRead] = '\0';
         if (strcmp(buffer, "TYPING") == 0) {
-            broadcast_message("Գրում է...\n", clientSocket);
+            broadcast_message("typing...\n", clientSocket);
         } else {
             broadcast_message(buffer, clientSocket);
         }
