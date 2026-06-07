@@ -4,11 +4,11 @@ A multi-client chat server built in **C** using **TCP sockets**, **pthreads**, a
 
 ## ✨ Features
 
-* 👥 Multi-client support using **POSIX threads (`pthread`)**
-* 📡 Real-time message broadcasting
-* ⌨️ **Typing indicator** – when a user starts typing, other clients see `TYPING`
-* ⚡ Efficient client-side I/O handling with **`epoll`**
-* 🌐 Simple TCP-based communication protocol
+*  Multi-client support using **POSIX threads (`pthread`)**
+*  Real-time message broadcasting
+*  **Typing indicator** – when a user starts typing, other clients see `TYPING`
+*  Efficient client-side I/O handling with **`epoll`**
+*  Simple TCP-based communication protocol
 
 ---
 
